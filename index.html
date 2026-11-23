@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- EDIT: your name and a one-line description (shown in search results and link previews) -->
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Your Name: background, experience, achievements and contact details.">
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Main">
+      <!-- EDIT: your initials -->
+      <a class="monogram" href="#top">Y. N.</a>
+
+      <ul class="nav-links" id="nav-links" data-open="false">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-tools">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Menu" aria-controls="nav-links" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero ============ -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="label">Portfolio &amp; CV</span>
+          <!-- EDIT: your name. Wrap one word in <em> for the green italic accent. -->
+          <h1>Your <em>Name</em></h1>
+          <!-- EDIT: one or two sentences on who you are and what you're working towards -->
+          <p class="hero-lede">A short statement about who you are, what you care about and the kind of work you are building a career in.</p>
+          <div class="hero-meta">
+            <span class="label">London, UK</span>
+            <span class="label">Open to opportunities</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Get in touch</a>
+            <a class="btn btn-ghost" href="#experience">View experience</a>
+          </div>
+        </div>
+        <!-- EDIT: replace the initials with <img src="images/portrait.jpg" alt="Portrait of Your Name"> -->
+        <div class="portrait" aria-hidden="true">YN</div>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section class="section" id="about">
+      <div class="wrap section-grid">
+        <div class="section-head">
+          <span class="label">§ 1</span>
+          <h2>About</h2>
+        </div>
+        <div class="prose">
+          <!-- EDIT: two or three short paragraphs about you -->
+          <p class="dropcap">Open with where you are now: what you are studying or doing, and the question or field that drew you to it. Keep it plain and specific; a reader should finish this paragraph knowing what you do.</p>
+          <p>Use the second paragraph for what makes you distinctive: a formative experience, a cause you work on outside your studies, or a skill you have built deliberately over time.</p>
+          <p>Close with what you are looking for next, such as a placement, a role, a collaboration or a conversation, so the reader knows how they can help.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Experience ============ -->
+    <section class="section" id="experience">
+      <div class="wrap section-grid">
+        <div class="section-head">
+          <span class="label">§ 2</span>
+          <h2>Experience</h2>
+        </div>
+        <!-- EDIT: one <li class="entry"> per role, most recent first. Copy a block to add more. -->
+        <ol class="entries" reversed>
+          <li class="entry">
+            <div class="entry-date">2025 – Present</div>
+            <div class="entry-body">
+              <h3>Role Title</h3>
+              <p class="entry-org">Organisation, City</p>
+              <ul>
+                <li>What you were responsible for, in one line.</li>
+                <li>A concrete result, with a number if you have one.</li>
+                <li>A skill you used or developed in the role.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="entry">
+            <div class="entry-date">2024</div>
+            <div class="entry-body">
+              <h3>Work Experience Placement</h3>
+              <p class="entry-org">Organisation, City · 2 weeks</p>
+              <ul>
+                <li>What you observed or assisted with.</li>
+                <li>What you learned, and how it shaped your direction.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="entry">
+            <div class="entry-date">2022 – 2024</div>
+            <div class="entry-body">
+              <h3>Volunteer</h3>
+              <p class="entry-org">Charity or Community Group</p>
+              <ul>
+                <li>What you did, how often, and who it helped.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section class="section" id="education">
+      <div class="wrap section-grid">
+        <div class="section-head">
+          <span class="label">§ 3</span>
+          <h2>Education</h2>
+        </div>
+        <ol class="entries" reversed>
+          <li class="entry">
+            <div class="entry-date">2023 – 2026</div>
+            <div class="entry-body">
+              <h3>Degree, Subject</h3>
+              <p class="entry-org">University Name</p>
+              <p>Expected or achieved grade. Name two or three modules or a dissertation topic that show your interests.</p>
+            </div>
+          </li>
+          <li class="entry">
+            <div class="entry-date">2021 – 2023</div>
+            <div class="entry-body">
+              <h3>A Levels (or equivalent)</h3>
+              <p class="entry-org">School or College Name</p>
+              <p>Subjects and grades, e.g. History (A*), English Literature (A), Politics (A).</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Achievements ============ -->
+    <section class="section" id="achievements">
+      <div class="wrap section-grid">
+        <div class="section-head">
+          <span class="label">§ 4</span>
+          <h2>Achievements</h2>
+        </div>
+        <div class="prose" style="gap:2.5rem">
+          <ul class="honours">
+            <li><span class="year">2025</span><div><strong>Prize, Scholarship or Award</strong><span class="note">Awarding body · one line on what it recognised</span></div></li>
+            <li><span class="year">2025</span><div><strong>Competition Result</strong><span class="note">e.g. Semi-finalist, national competition</span></div></li>
+            <li><span class="year">2024</span><div><strong>Leadership Position</strong><span class="note">e.g. President, university society</span></div></li>
+          </ul>
+
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3>Skills</h3>
+              <ul class="tags"><li>Research</li><li>Public speaking</li><li>Writing</li><li>Analysis</li></ul>
+            </div>
+            <div class="skill-group">
+              <h3>Languages</h3>
+              <ul class="tags"><li>English (native)</li><li>French (conversational)</li></ul>
+            </div>
+            <div class="skill-group">
+              <h3>Interests</h3>
+              <ul class="tags"><li>Debating</li><li>Running</li><li>Reading</li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Writing / projects ============ -->
+    <section class="section" id="writing">
+      <div class="wrap section-grid">
+        <div class="section-head">
+          <span class="label">§ 5</span>
+          <h2>Writing &amp; projects</h2>
+        </div>
+        <!-- EDIT: link each to the published piece (href="https://...") -->
+        <ul class="works">
+          <li><a href="#writing">
+            <span class="title">Title of an essay, article or project</span>
+            <span class="kind">Essay · 2025</span>
+            <span class="desc">One sentence on the argument or what the project does.</span>
+          </a></li>
+          <li><a href="#writing">
+            <span class="title">A second piece of work</span>
+            <span class="kind">Article · 2024</span>
+            <span class="desc">Where it was published and why it matters to you.</span>
+          </a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section" id="contact">
+      <div class="wrap section-grid">
+        <div class="section-head">
+          <span class="label">§ 6</span>
+          <h2>Contact</h2>
+        </div>
+        <div class="contact-card">
+          <h3>Let's talk</h3>
+          <p>I'm happy to hear about opportunities, questions or collaborations. Email is the best way to reach me.</p>
+          <div class="contact-rows">
+            <!-- EDIT: your email address and profile links -->
+            <div class="contact-row">
+              <span class="label">Email</span>
+              <span class="value" id="email-value">you@example.com</span>
+              <button class="copy-btn" type="button" data-copy="email-value">Copy</button>
+            </div>
+            <div class="contact-row">
+              <span class="label">LinkedIn</span>
+              <a class="value" href="https://www.linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/your-profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year">2026</span> Your Name</span>
+      <span>Print this page for a one-column CV.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
