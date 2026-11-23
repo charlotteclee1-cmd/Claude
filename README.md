@@ -12,13 +12,13 @@ A single-page portfolio and CV site in plain HTML, CSS and JavaScript. It has no
 
 ## Sections
 
-1. **Hero**: name, one-line statement, location/status, buttons, portrait
-2. **About**: two or three short paragraphs
-3. **Experience**: roles in reverse date order
-4. **Education**: degrees and qualifications
-5. **Achievements**: prizes and positions, plus skills, languages and interests
-6. **Writing & projects**: links to your published work
-7. **Contact**: email (with a copy button) and profile links
+1. **Hero**: name, one-line statement, buttons, portrait, and four headline figures
+2. **About**: three short paragraphs
+3. **Legal experience**: shadowing, moots, debating and legal writing
+4. **Education**: UCL and St John's Leatherhead
+5. **Politics & media**: parliamentary internships, campaigning, journalism, podcast and social media
+6. **Awards & positions**: prizes, scholarship and positions of responsibility, plus skills and interests
+7. **Contact**: email (with a copy button) and LinkedIn
 
 ## Making it yours
 

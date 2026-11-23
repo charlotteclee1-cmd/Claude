@@ -215,6 +215,25 @@ body::before {
 .btn-ghost { background: transparent; color: var(--accent); }
 .btn-ghost:hover { background: var(--accent-wash); filter: none; }
 
+.muted { color: var(--ink-soft); }
+h3 .muted { font-size: 0.8em; font-style: italic; }
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem 2rem;
+  margin: clamp(2.5rem, 6vw, 3.5rem) 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+.hero-stats div { min-width: 0; }
+.hero-stats dt {
+  font-family: var(--font-display); font-size: var(--step-2); line-height: 1.1;
+  color: var(--accent); font-variant-numeric: lining-nums tabular-nums;
+}
+.hero-stats dd { margin: 0.3rem 0 0; color: var(--ink-soft); font-size: 0.92rem; line-height: 1.4; }
+@media (max-width: 760px) { .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
 .portrait {
   width: clamp(8rem, 18vw, 11.5rem);
   aspect-ratio: 4 / 5;
@@ -287,11 +306,12 @@ body::before {
 /* ---------- Achievements ---------- */
 .honours { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
 .honours li {
-  display: grid; grid-template-columns: 4rem minmax(0, 1fr); gap: 1.5rem;
+  display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1.5rem;
   padding-block: 0.9rem; border-bottom: 1px solid var(--rule);
 }
 .honours li:first-child { padding-top: 0; }
-.honours .year { font-family: var(--font-mono); font-size: var(--step--1); color: var(--ink-soft); padding-top: 0.2rem; font-variant-numeric: tabular-nums; }
+.honours .year { font-family: var(--font-mono); font-size: var(--step--1); letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); padding-top: 0.2rem; }
+@media (max-width: 420px) { .honours li { grid-template-columns: 1fr; gap: 0.1rem; } }
 .honours strong { font-weight: 600; }
 .honours span.note { display: block; color: var(--ink-soft); font-size: 0.95rem; }
 
